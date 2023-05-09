@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+*{ /* seletor universal*/
+    font-family: Arial, Helvetica, sans-serif;   
+} /* fonte do texto*/
+
+
+p{
+    text-align: justify; /*texto justificado*/
+} 
+
+body{
+    background-image:linear-gradient(to right,#F1D8C9,#F2C3A7 ); 
+    /* Degrade, to right= pro lado, to botton= pra baixo. OBS: tirar o conteudo de dentro do degrade utilizando a tag main*/
+}
+
+main{ /**/
+    background-color:white; /*cor de fundo*/
+    border-radius:  10px; /* borda arredondada*/
+    box-shadow: 5px 5px 15px rgba(136, 109, 94, 0.612); /* sombra - parametros-1° pro lado, 2° pra baixo, 3° espalhamento e 4° transparencia*/
+    width:1100px; /*Largura*/
+    padding:10px; /*Acochoamento*/
+    margin:auto; /*Coloca automaticamente no meio da tela*/
+}
+
+h1{
+    color:#834f07;/* cor do texto*/
+    text-align: center; /* alinhar texto*/
+    text-shadow: 1px 1p 2px rgba(129, 77, 5, 0.726); /**/
+}
+
+h2{
+    color:#12519; /*cor do texto*/
+}

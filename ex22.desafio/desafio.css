@@ -1,0 +1,133 @@
+
+body{
+    background-color: #84E1AD; 
+    margin:auto ;
+    padding: 0px;  
+
+}
+
+header{
+    background-image: linear-gradient(#3CD681, #1A5C38);
+    color: white;
+    margin: auto;
+    padding: 15px;  
+    box-shadow: #15543170;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'idroid', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+#curiosidade{
+    text-align: justify;
+    text-indent: 25px;
+    background-color: #C5EBD6;
+    margin: auto;
+    padding:0;
+}
+
+h2{
+    background-image: linear-gradient(to right,#C5EBD6,#F6FCF9);
+    font-family: 'idroid', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    background-color: #2FA866;
+    margin: 0px;
+    border-radius:5px 5px 0px 0px;
+    padding: 10px;
+
+}
+    
+#idheader1{
+    text-align: center;
+}
+#idheader2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-indent: 25px;
+}
+
+#fim{
+    text-indent: 25px;
+    text-align: justify;
+}
+
+a{
+    color: white;
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 10px; 
+    border-radius: 0px 0px 10px 10px;
+}
+main>h1{
+    text-align: left;
+    margin: 10px;
+    
+}
+
+main>h2{
+    margin: 10px;
+    background-color:#E4F6EB;
+}
+
+main>p{
+    text-indent: 25px;
+    text-align: justify;
+    margin: 10px;
+}
+
+img{
+    margin: auto;
+    display:block
+}
+
+iframe{
+    background-color: #1A5C38;
+    margin: auto;
+    display:block;
+    height: 500px;
+    padding: 20px;
+}
+
+div{
+   
+    background-color: #C5EBD6;
+    margin: 0px;
+   
+}
+.container{
+    display:flex;
+    flex-direction:row ;
+    flex-wrap:nowrap;
+}
+
+.child{
+    text-indent: 25px;
+    width: 900px;
+    height: 125px;
+ 
+}
+
+div{
+    border-radius: 10px 10px 10px 10px ;
+    width: 950px;
+    margin: auto;
+}
+
+footer{
+    text-align: center;
+    background-color: #1A5C38;
+}
